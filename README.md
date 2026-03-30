@@ -8,17 +8,17 @@ SQL Server（Azure SQL Database を含む）から大量データを効率的に
 ODBC Driver 18 を使用して接続し、Pandas のチャンク処理を利用して
 メモリ効率よくデータをエクスポートできます。
 
-## 特徴
+# 特徴
 - SQL Server への ODBC 接続
 
-## 出力例
+# 出力例
 sample_data_export/
  ├── output_part_001.csv
  ├── output_part_002.csv
  └── output_part_003.csv
 - 任意の SQL を実行してデータ取得
 
-#### 動作確認済み環境
+# 動作確認済み環境
 - Python 3.10
 - Windows 10 / 11
 - ODBC Driver 18 for SQL Server
@@ -27,7 +27,7 @@ sample_data_export/
 - 途中から再開できるファイル番号指定
 - 保存先フォルダを自動生成
 
-## 必要なライブラリ
+# 必要なライブラリ
 pip install pyodbc pandas
 
 ## 実行方法
