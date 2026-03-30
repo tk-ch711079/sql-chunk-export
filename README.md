@@ -1,4 +1,5 @@
 # SQL Chunk Export Tool
+SQL Server の大量データをチャンク分割して CSV にエクスポートするツール
 
 SQL Server（Azure SQL Database を含む）から大量データを効率的に抽出し、
 1,000,000 行ごとに分割して CSV として保存する Python スクリプトです。
